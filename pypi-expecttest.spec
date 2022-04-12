@@ -4,7 +4,7 @@
 #
 Name     : pypi-expecttest
 Version  : 0.1.3
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/8e/e6/584ea2be6cf46a7f86991353c8c7de8321327a50c9a3e6cd120abc904c3f/expecttest-0.1.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8e/e6/584ea2be6cf46a7f86991353c8c7de8321327a50c9a3e6cd120abc904c3f/expecttest-0.1.3.tar.gz
 Summary  : No summary provided
@@ -14,9 +14,6 @@ Requires: pypi-expecttest-license = %{version}-%{release}
 Requires: pypi-expecttest-python = %{version}-%{release}
 Requires: pypi-expecttest-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: expecttest
-Provides: expecttest-python
-Provides: expecttest-python3
 BuildRequires : pypi(poetry_core)
 
 %description
@@ -58,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641435074
+export SOURCE_DATE_EPOCH=1649743025
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
