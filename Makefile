@@ -1,5 +1,5 @@
 PKG_NAME := pypi-expecttest
-URL = https://files.pythonhosted.org/packages/a2/46/42526e9e0f6d67966bd15364fc3713ac5a3501204868e472583f12c5271d/expecttest-0.1.6.tar.gz
+URL = https://files.pythonhosted.org/packages/2a/a8/dbdc333a19be95f2759b7a7db4dcf93ec894ba9621454b9bd1c68674cba9/expecttest-0.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
