@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : pypi-expecttest
-Version  : 0.2.0
-Release  : 18
-URL      : https://files.pythonhosted.org/packages/2a/a8/dbdc333a19be95f2759b7a7db4dcf93ec894ba9621454b9bd1c68674cba9/expecttest-0.2.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/2a/a8/dbdc333a19be95f2759b7a7db4dcf93ec894ba9621454b9bd1c68674cba9/expecttest-0.2.0.tar.gz
+Version  : 0.2.1
+Release  : 19
+URL      : https://files.pythonhosted.org/packages/49/f1/ce746b7508496340f780a9ba7c3b0eb8bf5ab4826dabcd86166e5fcd9ff8/expecttest-0.2.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/49/f1/ce746b7508496340f780a9ba7c3b0eb8bf5ab4826dabcd86166e5fcd9ff8/expecttest-0.2.1.tar.gz
 Summary  : No summary provided
 Group    : Development/Tools
 License  : MIT
@@ -53,10 +53,10 @@ python3 components for the pypi-expecttest package.
 
 
 %prep
-%setup -q -n expecttest-0.2.0
-cd %{_builddir}/expecttest-0.2.0
+%setup -q -n expecttest-0.2.1
+cd %{_builddir}/expecttest-0.2.1
 pushd ..
-cp -a expecttest-0.2.0 buildavx2
+cp -a expecttest-0.2.1 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1703116030
+export SOURCE_DATE_EPOCH=1703172538
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
