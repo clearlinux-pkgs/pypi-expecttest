@@ -7,7 +7,7 @@
 #
 Name     : pypi-expecttest
 Version  : 0.2.1
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/49/f1/ce746b7508496340f780a9ba7c3b0eb8bf5ab4826dabcd86166e5fcd9ff8/expecttest-0.2.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/f1/ce746b7508496340f780a9ba7c3b0eb8bf5ab4826dabcd86166e5fcd9ff8/expecttest-0.2.1.tar.gz
 Summary  : No summary provided
